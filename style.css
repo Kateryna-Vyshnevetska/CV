@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f5f7fa;
+  padding: 40px 20px;
+  font-family: Montserrat;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  color: #d4893d;
+
+  margin: 20px 0;
+}
+h3 {
+  margin: 10px 0;
+  font-size: 15px;
+}
+p {
+}
+
+.container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  margin: 10px 0;
+}
+.header__down {
+  height: 200px;
+}
+
+.body {
+  display: flex;
+}
+
+.header__up {
+  height: 200px;
+  background-color: #090730;
+  display: flex;
+  align-items: end;
+}
+
+.firstame {
+  font-size: xxx-large;
+  color: white;
+  font-weight: bold;
+  padding-left: 65px;
+}
+
+.lastname {
+  font-size: xxx-large;
+  color: #090730;
+  font-weight: bold;
+  padding-left: 220px;
+}
+
+.second-lastname {
+  font-weight: initial;
+  font-size: 26px;
+}
+
+.contacts {
+  margin: -5px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.contact-item {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.link {
+  color: #d4893d;
+
+  font-weight: unset;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 0.5px solid #090730;
+}
+
+.tel {
+  margin: 0 15px;
+}
+.email {
+  margin: 0 15px;
+}
+.git {
+  margin: 0 15px;
+}
+.img-tel {
+  width: 25px;
+}
+.img-email {
+  width: 25px;
+}
+.img-git {
+  width: 25px;
+}
+
+.avatar {
+  /* padding: 20px; */
+  position: absolute;
+  top: 75px;
+  left: 1055px;
+
+  border: 3px solid #d4893d;
+
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.img-block {
+  background-color: #f3f7f5;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 13px;
+}
+.img {
+  display: block;
+  width: 105%;
+  height: auto;
+}
+/* ...................... */
+
+.leftbar {
+  padding: 30px;
+  margin: 20px 10;
+  background-color: #ededed;
+  width: 621px;
+
+  border-radius: 25px;
+}
+
+.project-item {
+  margin: 10px;
+}
+
+.project-link {
+  /* color: black; */
+  color: #d4893d;
+
+  border-bottom: 0.5px solid #090730;
+}
+
+.rightbar {
+  padding: 30px;
+  margin: 20px 10px;
+}
+
+.techskill-item {
+  padding: 3px 0;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+}
+
+.pro-img {
+  padding: 0 10px;
+}
+
+.p-img {
+  width: 15px;
+}
+
+.react {
+  padding-left: 45px;
+}
+
+.react-item {
+  padding: 3px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dots {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  display: block;
+  background-color: #d4893d;
+
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rea {
+  display: flex;
+}
+
+.rea-img {
+  padding-right: 10px;
+}
+
+.r-img {
+  width: 18px;
+}
+
+.education_direction {
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #96969e;
+  /* padding-bottom: 20px; */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.devided {
+  color: black;
+}
+
+.work-list__title {
+  margin-left: 15px;
+}
+
+.work-list {
+  margin-left: 20px;
+}
+
+.languages {
+  margin-left: 10px;
+}
+
+.lan-item {
+  margin: 5px;
+}
+
+.proj {
+  display: block;
+  margin: 10px 0;
+}
