@@ -28,6 +28,7 @@ p {
 }
 
 .container {
+  position: relative;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -51,18 +52,18 @@ p {
   height: 200px;
   background-color: #090730;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .firstame {
-  font-size: xxx-large;
+  font-size: 50px;
   color: white;
   font-weight: bold;
   padding-left: 65px;
 }
 
 .lastname {
-  font-size: xxx-large;
+  font-size: 50px;
   color: #090730;
   font-weight: bold;
   padding-left: 220px;
@@ -112,10 +113,9 @@ p {
 }
 
 .avatar {
-  /* padding: 20px; */
   position: absolute;
-  top: 75px;
-  left: 1055px;
+  top: 45px;
+  left: 800px;
 
   border: 3px solid #d4893d;
 
@@ -157,8 +157,19 @@ p {
 .project-link {
   /* color: black; */
   color: #d4893d;
+}
 
-  border-bottom: 0.5px solid #090730;
+.project-link:hover {
+  color: orange;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: 350px;
 }
 
 .rightbar {
@@ -259,5 +270,7 @@ p {
 
 .proj {
   display: block;
-  margin: 10px 0;
+  margin: 20px 0;
+  /* text-align: center; */
+  font-weight: 700;
 }
