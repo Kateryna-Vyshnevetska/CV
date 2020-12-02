@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 25px 0;
   background: #f5f7fa;
   padding: 40px 20px;
   font-family: Montserrat;
@@ -75,15 +76,15 @@ p {
 }
 
 .contacts {
-  margin: -5px;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
+
 .contact-item {
   padding: 5px;
   display: flex;
   align-items: center;
 }
+
 .link {
   color: #d4893d;
 
@@ -93,24 +94,18 @@ p {
   border-bottom: 0.5px solid #090730;
 }
 
-.tel {
+.contact__item-block {
   margin: 0 15px;
 }
-.email {
-  margin: 0 15px;
-}
-.git {
-  margin: 0 15px;
-}
-.img-tel {
+
+.contact__img-block {
   width: 25px;
 }
-.img-email {
-  width: 25px;
+
+.contact__img-block.lin{
+  color: #090730;
 }
-.img-git {
-  width: 25px;
-}
+
 
 .avatar {
   position: absolute;
@@ -143,7 +138,7 @@ p {
 
 .leftbar {
   padding: 30px;
-  margin: 20px 10;
+  margin: 20px 10px;
   background-color: #ededed;
   width: 621px;
 
@@ -155,7 +150,7 @@ p {
 }
 
 .project-link {
-  /* color: black; */
+  width: 180px;
   color: #d4893d;
 }
 
@@ -165,6 +160,7 @@ p {
 
 .table {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -175,6 +171,10 @@ p {
 .rightbar {
   padding: 30px;
   margin: 20px 10px;
+}
+
+.techskills-title.two{
+  color: #d4893d;
 }
 
 .techskill-item {
@@ -273,4 +273,8 @@ p {
   margin: 20px 0;
   /* text-align: center; */
   font-weight: 700;
+}
+
+.companies:not(:last-child){
+  margin-bottom: 20px;
 }
