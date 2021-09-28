@@ -13,9 +13,6 @@ a {
   text-decoration: none;
   display: block;
 }
-ul {
-  list-style: none;
-}
 h2 {
   color: #d4893d;
 
@@ -24,8 +21,6 @@ h2 {
 h3 {
   margin: 10px 0;
   font-size: 15px;
-}
-p {
 }
 
 .container {
@@ -60,14 +55,14 @@ p {
   font-size: 50px;
   color: white;
   font-weight: bold;
-  padding-left: 65px;
+  padding-left: 100px;
 }
 
 .lastname {
   font-size: 50px;
   color: #090730;
   font-weight: bold;
-  padding-left: 220px;
+  padding-left: 250px;
 }
 
 .second-lastname {
@@ -182,8 +177,7 @@ p {
 }
 
 .pro {
-  display: flex;
-  align-items: center;
+  margin-bottom: 10px;
 }
 
 .pro-img {
@@ -268,11 +262,11 @@ p {
   margin: 5px;
 }
 
+.proj1 {
+  margin-bottom: 10px;
+}
 .proj {
-  display: block;
-  margin: 20px 0;
-  /* text-align: center; */
-  font-weight: 700;
+  font-weight: bold ;
 }
 
 .companies:not(:last-child){
